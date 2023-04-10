@@ -87,4 +87,10 @@ main{
     background-color: black;
     margin: 0px;
    }
+
+}
+button{
+    padding: 0px;
+    background-color: black;
+    border: 0px solid;
 }
