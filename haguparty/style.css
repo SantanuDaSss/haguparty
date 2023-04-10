@@ -13,6 +13,7 @@ header{
 nav{
     display: flex;/*if i dont use display: flex ,flipcart logo is staying on upper portion of header part. it keep 
     flipcart logo left portion of the header horizentally */
+    width: 100%;
 }
 .log{
     display: flex;
