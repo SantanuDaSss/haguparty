@@ -83,6 +83,8 @@ main{
    
    }
    .btn{
-    
+    border: 0px solid;
+    background-color: black;
+    margin: 0px;
    }
 }
