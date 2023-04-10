@@ -1,0 +1,71 @@
+:root{ /*i made a variable named --main-bg-color which position i want to give color i use var(--main-bg-color)*/
+    --main-bg-color:#000000; /* it takes color from flipcart website*/
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    
+    background: var(--main-bg-color);
+    
+}
+nav{
+    display: flex;/*if i dont use display: flex ,flipcart logo is staying on upper portion of header part. it keep 
+    flipcart logo left portion of the header horizentally */
+}
+.log{
+    display: flex;
+    align-items: center;
+}
+.log img{ /*flipcart pic ta small hoye jabey*/
+    width: 86px;
+    padding: 0 25px;
+}
+nav ul{
+    height: 53px;
+    display: flex;
+    justify-content: flex-start; /*nav ul lekha gulo verticlly theke horizentally hoye jabey*/
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 25px;
+}
+nav ul li a{
+    color: rgb(182, 221, 40);
+    text-decoration: none; /* underline sorey jabey*/
+    
+}
+nav ul li a:hover{
+    font-weight: bolder; /* when i move the gudsert in header part the header will bold */
+}
+.search{
+    display: flex; /*header ar total height joto ta totota search box create hobey*/
+    align-items: center; /*search box ta choto hoye midle position a asbey header ar */
+  
+}
+.search input{
+     width: 40vw; /*search bar ta horizentally barchey */
+    height: 24px; /*search bar ta vartically barchey*/
+     border-radius: 6px; /* search box ar side duto goal hobey*/
+    margin: 0 14px 0 56px;/*5px maney search lekha ta box theke dan dikey sorey jachhey and 56px maney box ta dan dikey sorchey*/
+    padding: 0 12px; /*placehoder ar search here lekhata dan dikey sorey gelo*/
+  
+
+}
+main{
+    background-color: rgb(233, 255, 35);
+    margin: 50px;
+    padding: 50px;
+    width: 90%;
+}
+.party{
+    margin: 10px;
+    padding: 10px;
+    /* justify-content: center; */
+}
+.fl{
+    background-color: black;
+    color: rgb(32, 165, 22);
+}
