@@ -34,7 +34,7 @@ nav ul li{
     padding: 0 25px;
 }
 nav ul li a{
-    color: rgb(42, 43, 39);
+    color: rgb(141, 180, 25);
     text-decoration: none; /* underline sorey jabey*/
     
 }
@@ -56,7 +56,7 @@ nav ul li a:hover{
 
 }
 main{
-    background-color: rgb(233, 255, 35);
+    background-color: rgb(184, 187, 162);
     margin: 50px;
     padding: 50px;
     width: 90%;
