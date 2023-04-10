@@ -4,6 +4,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 header{
     
@@ -57,9 +58,9 @@ nav ul li a:hover{
 }
 main{
     background-color: rgb(184, 187, 162);
-    margin: 50px;
+    margin: 0px;
     padding: 50px;
-    width: 90%;
+    width: 100%;
 }
 .party{
     margin: 10px;
@@ -69,4 +70,19 @@ main{
 .fl{
     background-color: black;
     color: rgb(32, 165, 22);
+}
+@media (max-width:700px) {
+    .search input{
+        width: 20vw; /*search bar ta horizentally barchey */
+       height: 24px; /*search bar ta vartically barchey*/
+        border-radius: 6px; /* search box ar side duto goal hobey*/
+       margin: 0 4px 0 16px;/*5px maney search lekha ta box theke dan dikey sorey jachhey and 56px maney box ta dan dikey sorchey*/
+       padding: 0 12px; /*placehoder ar search here lekhata dan dikey sorey gelo*/
+     position: relative;
+     right: 10px;
+   
+   }
+   .btn{
+    
+   }
 }
